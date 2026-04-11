@@ -1,0 +1,61 @@
+body {
+    overflow:scroll; font-family: "Pretendard Variable", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+}
+
+.mainTitle {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.outerbox {
+    border: 2px solid black;
+
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.inputs {
+    list-style: none;
+    text-align: left;
+    padding : 0px 0px 0px 20px ;
+    font-size: 15px;
+}
+
+p.redirect {
+    text-align: center;
+    margin: 15px 20px 20px 20px;
+}
+span.underline{
+    border: 1px solid; 
+    color:chocolate;
+}
+input.submit{
+    background-color: lightgreen;
+    border:1px solid lightgreen;
+    border-radius: 5px;
+}
+input.submit:hover{
+    background-color: #80dd00;
+    border-color:#80dd00;
+}
+input.submit:active{
+    border-color: gray;
+}
+input.reset{
+    background-color: lightcoral;
+    border:1px solid lightcoral;
+    border-radius: 5px;
+}
+input.reset:hover{
+    background-color: #e06060dd;
+    border-color:#e06060dd;
+}
+input.reset:active{
+    border-color: gray;
+}
